@@ -1,12 +1,8 @@
 /*importing data*/
 
-libname v 'C:\Users\u0118563\OneDrive - KU Leuven\Projecten\Corona Vera Hoorens\Paper 3\data (zeker correct)';
-libname vac 'C:\Users\u0118563\OneDrive - KU Leuven\Projecten\Corona Vera Hoorens\Paper 1\Revision 2\Data';
-libname co 'C:\Users\u0118563\OneDrive - KU Leuven\Projecten\Corona Vera Hoorens\Paper 4\data';
-
 ******************************************************
 *data manipulation;
-************************************************************;
+******************************************************;
 
 proc contents data=v.first;run;
 
