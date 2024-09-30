@@ -1,5 +1,5 @@
-libname co 'C:\Users\u0118563\OneDrive - KU Leuven\Projecten\Corona Vera Hoorens\Paper 4\data';
-libname r 'C:\Users\u0118563\OneDrive - KU Leuven\Projecten\Corona Vera Hoorens\Paper 4\results';
+libname co '';
+libname r '';
 
 
 proc freq data=co.imputed_final_v;
