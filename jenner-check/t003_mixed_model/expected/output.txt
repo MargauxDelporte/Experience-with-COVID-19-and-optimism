@@ -1,0 +1,85 @@
+        The Mixed Procedure         
+         Model Information          
+
+Item                           Value
+----------------------  ------------
+Dependent Variable      co_infection
+Estimation Method               REML
+Covariance Structure              UN
+Number of Observations            16
+
+Covariance Parameter Estimates
+
+Cov Parm  Estimate
+--------  --------
+UN(1,1)     0.3080
+UN(2,1)     0.0002
+UN(2,2)     0.3172
+Residual    0.3126
+
+            Type III Tests of Fixed Effects            
+
+Effect             Num DF    Den DF   F Value    Pr > F
+---------------  --------  --------  --------  --------
+time_since_exp          1       1.0      0.18    0.7415
+W1_Education            2       1.0      0.00    1.0000
+W1_Age_group            3       1.0      0.00    1.0000
+W1_Gender               1       1.0      0.00    1.0000
+W1_Household            2       1.0      0.00    1.0000
+W1_Urbanization         3       1.0      0.00    1.0000
+risk                    2       1.0      0.00    1.0000
+w1_gewest               2       1.0      0.00    1.0000
+exp_start               1       1.0      0.00    1.0000
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood     36.2468
+AIC (Smaller is Better)   40.2468
+BIC (Smaller is Better)   40.4057
+
+                         Solution for Fixed Effects                         
+
+Effect                Estimate  Standard Error        DF   t Value  Pr > |t|
+--------------------  --------  --------------  --------  --------  --------
+Intercept               0.2326    4556656.4877       1.0      0.00    1.0000
+time_since_exp_0        0.0760          0.1768       1.0      0.43    0.7415
+W1_Education_1.0       -0.4072   21855692.4735       1.0      0.00    1.0000
+W1_Education_2.0       -0.2440   46816069.8646       1.0      0.00    1.0000
+W1_Age_group_1.0        0.1099   58497357.6823       1.0      0.00    1.0000
+W1_Age_group_2.0        0.3934  117956770.3245       1.0      0.00    1.0000
+W1_Age_group_3.0        0.0531   76413001.3394       1.0      0.00    1.0000
+W1_Gender_1.0           0.0884   77596262.1705       1.0      0.00    1.0000
+W1_Household_1.0        0.0751   93233068.8623       1.0      0.00    1.0000
+W1_Household_2.0        0.0057   57914689.6091       1.0      0.00    1.0000
+W1_Urbanization_1.0     0.1152   28109735.9624       1.0      0.00    1.0000
+W1_Urbanization_2.0     0.5193   49378470.5529       1.0      0.00    1.0000
+W1_Urbanization_3.0     0.0968  105386473.7897       1.0      0.00    1.0000
+risk_1                 -0.1169   11196806.0947       1.0      0.00    1.0000
+risk_2                 -0.4603   23515492.9682       1.0      0.00    1.0000
+w1_gewest_Brussel       0.3398   60769660.9703       1.0      0.00    1.0000
+w1_gewest_Vlaanderen   -0.0253   13421772.8000       1.0      0.00    1.0000
+exp_start_0            -0.1758    7718822.7965       1.0      0.00    1.0000
+
+  Obs                           Effect  Estimate          StdErr  DF  tValue   Probt
+-----  -------------------------------  --------  --------------  --  ------  ------
+    1  Intercept                          0.2326    4556656.4877   1       0       1
+    2  C(time_since_exp, Sum)[S.0]         0.076          0.1768   1    0.43  0.7415
+    3  C(W1_Education, Sum)[S.1.0]       -0.4072   21855692.4735   1       0       1
+    4  C(W1_Education, Sum)[S.2.0]        -0.244   46816069.8646   1       0       1
+    5  C(W1_Age_group, Sum)[S.1.0]        0.1099   58497357.6823   1       0       1
+    6  C(W1_Age_group, Sum)[S.2.0]        0.3934  117956770.3245   1       0       1
+    7  C(W1_Age_group, Sum)[S.3.0]        0.0531   76413001.3394   1       0       1
+    8  C(W1_Gender, Sum)[S.1.0]           0.0884   77596262.1705   1       0       1
+    9  C(W1_Household, Sum)[S.1.0]        0.0751   93233068.8623   1       0       1
+   10  C(W1_Household, Sum)[S.2.0]        0.0057   57914689.6091   1       0       1
+   11  C(W1_Urbanization, Sum)[S.1.0]     0.1152   28109735.9624   1       0       1
+   12  C(W1_Urbanization, Sum)[S.2.0]     0.5193   49378470.5529   1       0       1
+   13  C(W1_Urbanization, Sum)[S.3.0]     0.0968  105386473.7897   1       0       1
+   14  C(risk, Sum)[S.1]                 -0.1169   11196806.0947   1       0       1
+   15  C(risk, Sum)[S.2]                 -0.4603   23515492.9682   1       0       1
+   16  C(w1_gewest, Sum)[S.Brussel]       0.3398   60769660.9703   1       0       1
+   17  C(w1_gewest, Sum)[S.Vlaanderen]   -0.0253      13421772.8   1       0       1
+   18  C(exp_start, Sum)[S.0]            -0.1758    7718822.7965   1       0       1
+

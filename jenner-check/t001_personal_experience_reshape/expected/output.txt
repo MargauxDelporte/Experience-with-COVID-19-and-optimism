@@ -1,0 +1,166 @@
+
+  Obs  W1_exp_pers  exp_start
+-----  -----------  ---------
+    1            1          0
+    2            2          1
+    3            1          0
+    4            1          0
+    5            2          1
+    6            1          0
+    7            2          1
+    8            1          0
+    9            1          0
+   10            2          1
+
+... 14 more observations (showing 10 of 24)
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: imputed_final
+Observations:  100
+Variables:     78
+
+Variables (in alphabetical order):
+
+  #  Variable                Type    Len  Format     Label
+---  ----------------------  ----  -----  ---------  -----
+  1  Control_Infection        Num      8  BEST12.2   
+  2  Control_Outcome_Neg      Num      8  BEST12.2   
+  3  Control_Outcome_Pos      Num      8  BEST12.2   
+  4  CO_Infection             Num      8  BEST12.18  
+  5  CO_Outcome_Neg           Num      8  BEST12.18  
+  6  CO_Outcome_Pos           Num      8  BEST12.17  
+  7  exp_start                Num      8             
+  8  Other_Infection          Num      8  BEST12.2   
+  9  Other_Outcome_neg        Num      8  BEST12.2   
+ 10  Other_Outcome_pos        Num      8  BEST12.2   
+ 11  risk                     Num      8             
+ 12  Self_Infection           Num      8  BEST12.2   
+ 13  Self_Outcome_neg         Num      8  BEST12.2   
+ 14  Self_Outcome_pos         Num      8  BEST12.2   
+ 15  size_increase            Num      8             
+ 16  size_increase_W1         Num      8             
+ 17  SurveyID                 Num      8             
+ 18  time                     Num      8             
+ 19  timeclass                Num      8             
+ 20  time_since_exp           Num      8             
+ 21  W1_Age_group            Char    200             
+ 22  W1_Control_Infection     Num      8  BEST12.2   
+ 23  W1_Control_Outcome_Neg   Num      8  BEST12.2   
+ 24  W1_Control_Outcome_Pos   Num      8  BEST12.2   
+ 25  W1_Education            Char    200             
+ 26  W1_exp_vic               Num      8             
+ 27  W1_Gender                Num      8             
+ 28  W1_gewest               Char    200             
+ 29  W1_Household             Num      8             
+ 30  W1_Other_Infection       Num      8  BEST12.2   
+ 31  W1_Other_Outcome_neg     Num      8  BEST12.2   
+ 32  W1_Other_Outcome_pos     Num      8  BEST12.2   
+ 33  W1_Self_Infection        Num      8  BEST12.2   
+ 34  W1_Self_Outcome_neg      Num      8  BEST12.2   
+ 35  W1_Self_Outcome_pos      Num      8  BEST12.2   
+ 36  W1_Urbanization         Char    200             
+ 37  W2_Control_Infection     Num      8  BEST12.2   
+ 38  W2_Control_Outcome_Neg   Num      8  BEST12.2   
+ 39  W2_Control_Outcome_Pos   Num      8  BEST12.2   
+ 40  W2_exp_vic               Num      8             
+ 41  W2_Other_Infection       Num      8  BEST12.2   
+ 42  W2_Other_Outcome_neg     Num      8  BEST12.2   
+ 43  W2_Other_Outcome_pos     Num      8  BEST12.2   
+ 44  W2_Self_Infection        Num      8  BEST12.2   
+ 45  W2_Self_Outcome_neg      Num      8  BEST12.2   
+ 46  W2_Self_Outcome_pos      Num      8  BEST12.2   
+ 47  W3_Control_Infection     Num      8  BEST12.2   
+ 48  W3_Control_Outcome_Neg   Num      8  BEST12.2   
+ 49  W3_Control_Outcome_Pos   Num      8  BEST12.2   
+ 50  W3_exp_vic               Num      8             
+ 51  W3_Other_Infection       Num      8  BEST12.2   
+ 52  W3_Other_Outcome_neg     Num      8  BEST12.2   
+ 53  W3_Other_Outcome_pos     Num      8  BEST12.2   
+ 54  W3_Self_Infection        Num      8  BEST12.2   
+ 55  W3_Self_Outcome_neg      Num      8  BEST12.2   
+ 56  W3_Self_Outcome_pos      Num      8  BEST12.2   
+ 57  W4_Control_Infection     Num      8  BEST12.2   
+ 58  W4_Control_Outcome_Neg   Num      8  BEST12.2   
+ 59  W4_Control_Outcome_Pos   Num      8  BEST12.2   
+ 60  W4_exp_vic               Num      8             
+ 61  W4_Other_Infection       Num      8  BEST12.2   
+ 62  W4_Other_Outcome_neg     Num      8  BEST12.2   
+ 63  W4_Other_Outcome_pos     Num      8  BEST12.2   
+ 64  W4_Self_Infection        Num      8  BEST12.2   
+ 65  W4_Self_Outcome_neg      Num      8  BEST12.2   
+ 66  W4_Self_Outcome_pos      Num      8  BEST12.2   
+ 67  W5_Control_Infection     Num      8  BEST12.2   
+ 68  W5_Control_Outcome_Neg   Num      8  BEST12.2   
+ 69  W5_Control_Outcome_Pos   Num      8  BEST12.2   
+ 70  W5_exp_vic               Num      8             
+ 71  W5_Other_Infection       Num      8  BEST12.2   
+ 72  W5_Other_Outcome_neg     Num      8  BEST12.2   
+ 73  W5_Other_Outcome_pos     Num      8  BEST12.2   
+ 74  W5_Self_Infection        Num      8  BEST12.2   
+ 75  W5_Self_Outcome_neg      Num      8  BEST12.2   
+ 76  W5_Self_Outcome_pos      Num      8  BEST12.2   
+ 77  wave                     Num      8             
+ 78  _Imputation_             Num      8             
+
+-------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+W1_Education    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+1.00                   30     30.00           30        30.00
+2.00                   40     40.00           70        70.00
+3.00                   30     30.00          100       100.00
+
+                                          Cumulative    Cumulative
+W1_Age_group    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+1.00                   15     15.00           15        15.00
+2.00                   30     30.00           45        45.00
+3.00                   25     25.00           70        70.00
+4.00                   30     30.00          100       100.00
+
+                                       Cumulative    Cumulative
+W1_Gender    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+1                   55     55.00           55        55.00
+2                   45     45.00          100       100.00
+
+                                          Cumulative    Cumulative
+W1_Household    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+1                      50     50.00           50        50.00
+2                      20     20.00           70        70.00
+3                      30     30.00          100       100.00
+
+                                             Cumulative    Cumulative
+W1_Urbanization    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------
+1.00                      40     40.00           40        40.00
+2.00                      20     20.00           60        60.00
+3.00                      15     15.00           75        75.00
+4.00                      25     25.00          100       100.00
+
+                                  Cumulative    Cumulative
+risk    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+1              34     34.00           34        34.00
+2              31     31.00           65        65.00
+3              35     35.00          100       100.00
+
+                                        Cumulative    Cumulative
+W1_gewest     Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------
+Brussel              15     15.00           15        15.00
+Vlaanderen           30     30.00           45        45.00
+Wallonie             55     55.00          100       100.00
+
+                                       Cumulative    Cumulative
+exp_start    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+0                   55     55.00           55        55.00
+1                   45     45.00          100       100.00

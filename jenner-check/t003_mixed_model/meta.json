@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_mixed_model",
+  "source_file": "Personal experience.sas",
+  "source_blob_sha": "65d7c7bc668a905805504337615133482954746a",
+  "source_commit": "b10b0a33a449b97816e05ea02674a633360bdeeb",
+  "notes": "Adapted the unconditional PROC MIXED model (CLASS with the source's exact reference levels, MODEL, REPEATED wave/subject=surveyid type=un, and ODS OUTPUT SOLUTIONF/COVB) that the script applies directly to co.imputed_final before the %analysis/%plots macro block. &var is bound to co_infection (the source leaves &var unresolved at this exact point, since it is only ever set inside the two macros). Mock input is a small long-format panel (8 subjects x 2 waves) with the same variable names and CLASS levels; kept intentionally small so the unstructured (TYPE=UN) repeated-covariance fit stays well inside the anonymous-tier execution time budget."
+}

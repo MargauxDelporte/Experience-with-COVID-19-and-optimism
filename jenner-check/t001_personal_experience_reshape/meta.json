@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_personal_experience_reshape",
+  "source_file": "Personal experience.sas",
+  "source_blob_sha": "65d7c7bc668a905805504337615133482954746a",
+  "source_commit": "b10b0a33a449b97816e05ea02674a633360bdeeb",
+  "notes": "Adapted the wide-to-long reshape and derived-variable logic (exp_start recode, wave-over-wave 'increase' flags, time_since_exp/size_increase construction, CO_Infection/CO_Outcome_* difference scores) through PROC PRINT, PROC SORT, PROC CONTENTS, and PROC FREQ, unmodified. The two empty LIBNAME statements and PROC MIXED/PROC MIANALYZE analysis macros (which need the full multiply-imputed panel and MI parameter starting values not present in the repo) were left out. Mock input built with a small Python generator (12 subjects x 2 imputations, 5-wave panel) matching the co.imputed_noco wide-column shape the script expects, replacing the external libname co.imputed_noco source."
+}
