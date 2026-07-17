@@ -1,0 +1,73 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA imputed_noco
+
+NOTE: Processing inline DATALINES (24 lines)
+
+NOTE: Read 24 rows from DATALINES.
+NOTE: Wrote imputed_noco (24 rows, 68 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA imputed_final
+
+
+NOTE: Read 24 rows from imputed_noco.
+NOTE: Wrote imputed_final (24 rows, 69 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=imputed_final
+
+NOTE: PROC PRINT completed: 10 observations printed, 2 variables
+NOTE: DATA imputed_final
+
+
+NOTE: Read 24 rows from imputed_final.
+NOTE: Wrote imputed_final (24 rows, 73 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA imputed_final
+
+
+NOTE: Read 20 rows from imputed_final.
+NOTE: Wrote imputed_final (100 rows, 73 columns).
+NOTE: DATA elapsed:
+  wall  0.01 seconds
+  cpu   0.01 seconds
+NOTE: DATA imputed_final
+
+
+NOTE: Read 100 rows from imputed_final.
+NOTE: Wrote imputed_final (100 rows, 78 columns).
+NOTE: DATA elapsed:
+  wall  0.02 seconds
+  cpu   0.02 seconds
+NOTE: PROC SORT data=imputed_final
+
+NOTE: Read 100 rows from imputed_final.
+NOTE: Wrote imputed_final (100 rows, 78 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC CONTENTS data=imputed_final
+
+NOTE: PROC CONTENTS completed: 100 observations, 78 variables
+NOTE: DATA imputed_final
+
+
+NOTE: Read 100 rows from imputed_final.
+NOTE: Wrote imputed_final (100 rows, 27 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_w1_education.spec.json
+NOTE: ODS plot written: freq_w1_age_group.spec.json
+NOTE: ODS plot written: freq_w1_gender.spec.json
+NOTE: ODS plot written: freq_w1_household.spec.json
+NOTE: ODS plot written: freq_w1_urbanization.spec.json
+NOTE: ODS plot written: freq_risk.spec.json
+NOTE: ODS plot written: freq_w1_gewest.spec.json
+NOTE: ODS plot written: freq_exp_start.spec.json
+NOTE: PROC FREQ statement used.

@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-17T18:30:00Z",
+  "_captured_run_id": "r_69fabaa115be4b359bcf21db00f29c91",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote imputed_final (16 rows, 12 columns).",
+    "NOTE: PROC MIXED data=imputed_final",
+    "NOTE: Repeated covariance structure: TYPE=UN",
+    "NOTE: ODS OUTPUT: SolutionF written to 'fixed'.",
+    "NOTE: PROC PRINT completed: 18 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

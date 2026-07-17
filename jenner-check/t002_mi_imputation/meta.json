@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_mi_imputation",
+  "source_file": "Data manipulation and imputation",
+  "source_blob_sha": "fc3a8e4156c702c7652f31f19a0b1b27effd4394",
+  "source_commit": "b10b0a33a449b97816e05ea02674a633360bdeeb",
+  "notes": "Adapted the PROC MI multiple-imputation step: kept the CLASS list, the FCS DISCRIM/REG method split (categorical demographic/risk items via discriminant-function imputation, continuous optimism/control items via regression), and the VAR list exactly as structured in the source, narrowed from the full 5-wave (W1..W5) panel to a wave-1 slice so a small mock sample could stand in for the external libname co.final source (an OneDrive/SPSS path not shipped in the repo). Mock data: 14 subjects with ~15% missingness injected per column to exercise the same missing-data-pattern report and FCS imputation the original relies on."
+}

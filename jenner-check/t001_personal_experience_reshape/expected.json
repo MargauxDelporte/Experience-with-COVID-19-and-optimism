@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-17T18:05:00Z",
+  "_captured_run_id": "r_8b2dc5f67d834c098e08c4a45b134f77",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote imputed_noco (24 rows, 68 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 2 variables",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: PROC CONTENTS completed: 100 observations, 78 variables",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
